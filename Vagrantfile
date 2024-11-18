@@ -29,7 +29,7 @@ Vagrant.configure("2") do |config|
       config.vm.define "compute#{i}" do |node|
         node.vm.box = "generic/rocky9"
         node.vm.hostname = "compute#{i}.cluster.local"
-        node.vm.network "private_network", ip: "10.77.0.#{i + 1}"
+        node.vm.network "private_network", type: "dhcp"
         node.vm.provider "virtualbox" do |vb|
           vb.name = "Compute Node #{i}"
         end
