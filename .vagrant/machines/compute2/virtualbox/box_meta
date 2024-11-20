@@ -1,1 +1,1 @@
-{"name":"generic/rocky9","version":"4.3.12","provider":"virtualbox","directory":"boxes/generic-VAGRANTSLASH-rocky9/4.3.12/amd64/virtualbox"}
+{"name":"rockylinux/9","version":"4.0.0","provider":"virtualbox","directory":"boxes/rockylinux-VAGRANTSLASH-9/4.0.0/amd64/virtualbox"}
